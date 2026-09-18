@@ -1,0 +1,7 @@
+{
+  "schedule": "0 0 20 * * 0",
+  "chainSelectorName": "ethereum-testnet-sepolia",
+  "consumerAddress": "0x7b8218b8A813E5E29bC38C1e4FF04Ca8e4A19a20",
+  "gasLimit": "500000",
+  "zahl": "092026"
+}
