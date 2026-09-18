@@ -82,7 +82,11 @@ forge script script/DeploySepolia.s.sol \
   -vvvv
 ```
 
-After deployment:
+### After deployment:
+```bash
+cd my-workflow
+```
+Enter the contract address in the `config.staging.json` file under `consumerAddress`.
 Create a subscription in the Chainlink VRF (Verifiable Random Function), fund the subscription, and add the SUBSCRIPTION_ID to your .env file.
 Copy the new contract address into .env as CONTRACT_ADDRESS
 Add the contract as a Consumer in your Chainlink VRF Subscription
