@@ -173,6 +173,6 @@ cre workflow simulate my-workflow --target staging-settings --broadcast
 
 This project is an educational and experimental implementation of an automated blockchain lottery using Chainlink CRE and VRF.
 
-Use testnet ETH and LINK when experimenting with the project.
+Use testnet ETH and LINK when experimenting with the project!
 
 
