@@ -34,22 +34,71 @@ The contract then requests a random number from Chainlink VRF, selects a winner 
 
 ---
 
+### Project Structure
+CRELotto/
+├── contracts/
+│   ├── src/
+│   ├── test/
+│   └── script/
+│
+├── my-workflow/
+│   ├── main.ts
+│   └── config.staging.json
+│
+├── project.yaml
+├── secrets.yaml
+├── .gitignore
+├── README.md
+└── .env
+
+
+---
+
+### How the Lottery Works
+Player
+  │
+  │ 0.01 ETH
+  ▼
+Lottery Contract
+  │
+  │ Every Sunday
+  ▼
+Chainlink CRE
+  │
+  │ Forwarder
+  ▼
+Lottery Contract
+  │
+  │ Request randomness
+  ▼
+Chainlink VRF
+  │
+  │ Random number
+  ▼
+Lottery Contract
+  │
+  │ Select winner
+  ▼
+Winner receives prize pool
+
+---
+
 ## Getting Started
 
 ### 1. Clone the repository
 //noch verbessern
 ```bash
-git clone https://github.com/DEIN-USERNAME/lottery-foundry.git
-cd lottery-foundry
+git clone https://github.com/barb323/CRELotto.git cd CRELotto
 ```
 
 ### 2. Install dependencies
 ```bash
+cd contracts 
 forge install
 ```
-### 3. Environment Variables
+### 3. Configure environment Variables
 
-Create a .env file in the CRELotto2 Folder and add:
+Create a .env file in the CRELotto Folder and configure your own credentials:
 
 SEPOLIA_PRIVATE_KEY=your_private_key
 CRE_ETH_PRIVATE_KEY=${SEPOLIA_PRIVATE_KEY}
