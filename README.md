@@ -170,6 +170,12 @@ cast send $CONTRACT_ADDRESS \
 ### Testing the CRE Workflow
 
 ```bash
+cre login
+cre init
+```
+
+
+```bash
 cd CRELotto2
 source .env
 cre workflow simulate my-workflow --target staging-settings --broadcast
