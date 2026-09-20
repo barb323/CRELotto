@@ -94,7 +94,8 @@ Winner receives prize pool
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/barb323/CRELotto.git cd CRELotto
+git clone https://github.com/barb323/CRELotto.git 
+cd CRELotto
 ```
 
 ### 2. Install dependencies
