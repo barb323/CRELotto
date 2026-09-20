@@ -59,6 +59,8 @@ CRELotto/
 ---
 
 ### How the Lottery Works
+
+```text
 Player
   │
   │ 0.01 ETH
@@ -84,7 +86,7 @@ Lottery Contract
   │ Select winner
   ▼
 Winner receives prize pool
-
+```
 ---
 
 ## Getting Started
