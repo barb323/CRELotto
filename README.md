@@ -177,7 +177,7 @@ cre init
 
 
 ```bash
-cd CRELotto2
+cd CRELotto
 source .env
 cre workflow simulate my-workflow --target staging-settings --broadcast
 ```
