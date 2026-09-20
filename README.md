@@ -35,6 +35,8 @@ The contract then requests a random number from Chainlink VRF, selects a winner 
 ---
 
 ### Project Structure
+
+```text 
 CRELotto/
 ├── contracts/
 │   ├── src/
@@ -50,6 +52,8 @@ CRELotto/
 ├── .gitignore
 ├── README.md
 └── .env
+```
+
 
 
 ---
@@ -86,7 +90,7 @@ Winner receives prize pool
 ## Getting Started
 
 ### 1. Clone the repository
-//noch verbessern
+
 ```bash
 git clone https://github.com/barb323/CRELotto.git cd CRELotto
 ```
